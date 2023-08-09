@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  background-color: ffffff;
+  background-image: url(../images/background-search.jpg);
+  line-height: 1.5;
+}
+s img {
+  display: block;
+  max-width: 100%;
+  border: 4px solid #922020;
+  border-radius: 10px;
+}
+
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.search-form {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  background: #5898e1;
+  box-shadow: 1px 5px 8px 0px #5898e5;
+}
+
+.search-form-active {
+  top: 0;
+}
+
+input {
+  width: 600px;
+  height: 60px;
+  padding: 5px 5px 5px 15px;
+  font-size: 20px;
+  outline: none;
+  border: solid;
+  border-color: yellow;
+  border-radius: 10px;
+  color: rgb(30, 10, 80);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  border: solid;
+  border-color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(30, 10, 80);
+}
+
+button:hover,
+button:focus {
+  background-color: #0057b8;
+}
+
+.gallery {
+  margin-top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.photo-card {
+  background-color: aqua;
+  border: 4px solid #922020;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.img_wrap {
+  height: 260px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery_link {
+  display: block;
+  text-decoration: none;
+}
+
+.load-more {
+  margin: 40px auto;
+  width: 200px;
+  color: #fff;
+  background-color: #5898e1;
+}
