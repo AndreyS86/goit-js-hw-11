@@ -111,3 +111,9 @@ button:focus {
   color: #fff;
   background-color: #5898e1;
 }
+
+.info-item {
+  font-family: cursive;
+  font-style: oblique;
+  font-size: 20;
+}

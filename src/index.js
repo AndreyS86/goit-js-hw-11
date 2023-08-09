@@ -2,8 +2,8 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { fetchPhoto } from './js/pixabay-api';
 import { createMarkup } from './js/markup';
 import { refs } from './js/refs';
-import { searchBtn } from './js/toggle';
 import { lightbox } from './js/lightbox';
+import { toggleForm } from './js/toggle';
 
 const { searchForm, gallery, btnLoadMore } = refs;
 
